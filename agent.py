@@ -38,7 +38,7 @@ def resume_agent(user_data):
     return pdf_bytes
 
 # Set your API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyD44odvaci8mt3ElvyepB5ux49ce-tsJZs"
+os.environ["GOOGLE_API_KEY"] = "GOOGLE_API_KEY"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 def generate_with_gemini(prompt: str) -> str:
